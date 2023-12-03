@@ -137,3 +137,12 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JAZZMIN_SETTINGS = {
+    "site_title": "MSavvy Admin",
+    "site_header": "MSavvy BlogSite",
+    "site_brand": "MSavvy Admin",
+    "site_logo": "images/logoInfo.png",
+    # "login_logo": "images/logoDark.png",
+    # "login_logo_dark": "images/logoWhite.png",
+}
