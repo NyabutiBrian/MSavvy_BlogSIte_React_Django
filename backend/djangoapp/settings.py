@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    'articles.apps.ArticlesConfig',
 ]
 
 CORS_ALLOWED_ORIGINS = ['http://localhost:3000']
