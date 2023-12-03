@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'articles.apps.ArticlesConfig',
 ]
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000']
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'https://msavvy-blog-site-react-django.vercel.app/']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
