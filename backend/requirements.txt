@@ -3,6 +3,7 @@ Django
 django-cors-headers==4.3.1
 django-jazzmin==2.6.0
 djangorestframework==3.14.0
+gunicorn
 Pillow==10.1.0
 psycopg2==2.9.9
 pytz==2023.3.post1
