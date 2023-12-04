@@ -1,4 +1,4 @@
-import React, { useState, useEffect  } from 'react';
+import React from 'react';
 import carousel1 from '../../assets/images/cover.webp';
 import carousel2 from '../../assets/images/codescreen.webp';
 import carousel3 from '../../assets/images/monitor.webp';
