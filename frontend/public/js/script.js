@@ -24,12 +24,3 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 
-// MULTIPLE TEXT SCRIPT
-let typed = new Typed('.multiple-text', {
-  strings: ["a Front-End Developer", "an IT-Specialist"],
-  typeSpeed: 50,
-  backSpeed: 50,
-  backDelay: 4000,
-  loop: true
-})
-

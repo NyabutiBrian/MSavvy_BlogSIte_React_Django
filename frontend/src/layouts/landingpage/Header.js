@@ -10,7 +10,7 @@ const Header = () => {
                     <div className="row">
                         <div className="col-lg-10 text-start mx-auto">
                             <h5 className="text-white opacity-7 pt-3 mt-n5">Hello There!</h5>
-                            <h1 className="text-white">Welcome to <small class="opacity-7">MSavvy Blog</small></h1>
+                            <h1 className="text-white">Welcome to <small className="opacity-7">MSavvy Blog</small></h1>
                             <div className="row">
                                 <div className="col-lg-7 col-sm-8">
                                     <p className="text-white font-weight-bolder opacity-7 mt-1">

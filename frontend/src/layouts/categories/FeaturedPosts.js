@@ -1,6 +1,6 @@
 import React, { useState, useEffect  } from 'react';
 import { Link } from 'react-router-dom';
-import cover from "../../assets/images/cover.png";
+import cover from "../../assets/images/cover.webp";
 
 const FeaturedPosts = () => {
     const [featuredArticles, setFeaturedArticles] = useState([]);
@@ -41,7 +41,7 @@ const FeaturedPosts = () => {
                                   <img class="avatar avatar-sm shadow-xl position-relative z-index-2" src={cover} alt="dp" loading="lazy" />
                               </div>
                               <div class="col-8 d-flex align-items-end ms-n1">
-                                  <p class="text-xs fw-bold">Momanyi Brian <br /> {new Date(article.post_date).toLocaleString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit'})}</p>
+                                  <p class="text-xs fw-bold">Msavvy Admin <br /> {new Date(article.post_date).toLocaleString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit'})}</p>
                               </div>
                           </div>
                           <Link to={`/article/${article.id}`}>

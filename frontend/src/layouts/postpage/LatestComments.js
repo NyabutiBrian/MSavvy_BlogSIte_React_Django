@@ -1,5 +1,5 @@
 import React, { useState, useEffect  } from 'react';
-import cover from "../../assets/images/cover.png";
+import cover from "../../assets/images/cover.webp";
 
 const LatestComments = () => {
 

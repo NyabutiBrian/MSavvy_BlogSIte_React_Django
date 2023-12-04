@@ -71,7 +71,7 @@ const ContactUs = () => {
                                 <p className="pb-3">
                                     For further questions, including partnership opportunities, please use our contact form.
                                 </p>
-                                <form id="contact-form" onSubmit={handleSubmit} autocomplete="off">
+                                <form id="contact-form" onSubmit={handleSubmit} autoComplete="off">
                                     <div className="card-body p-0 my-3">
                                         <div className="row">
                                             <div className="col-md-6">

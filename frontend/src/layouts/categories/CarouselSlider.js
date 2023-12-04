@@ -1,18 +1,11 @@
 import React, { useState, useEffect  } from 'react';
-import carousel1 from '../../assets/images/cover.png';
+import carousel1 from '../../assets/images/cover.webp';
+import carousel2 from '../../assets/images/codescreen.webp';
+import carousel3 from '../../assets/images/monitor.webp';
+import carousel4 from '../../assets/images/bluebrainlogo.webp';
+import carousel5 from '../../assets/images/neonroom.webp';
 
 const CarouselSlider = () => {
-
-    const [articles, setArticles] = useState([]);
-
-    useEffect(() => {
-        // Fetch articles
-        fetch('https://msavvy-backend.onrender.com/api/article/')
-            .then(response => response.json())
-            .then(data => setArticles(data))
-            .catch(error => console.error('Error fetching articles:', error));
-    }, []);
-
   return (
     <section id="carouselChange">
         <div className="container-fluid">
@@ -24,19 +17,41 @@ const CarouselSlider = () => {
                                 <img src={carousel1} className="d-block w-100" alt="..." />
                                 <span className="mask bg-gradient-dark opacity-8"></span>
                                 <div className="carousel-caption">
-                                    <h2 className="text-white">MSavvy</h2>
+                                    <h2 className="text-white">In the intricate tapestry of code, software engineers...</h2>
                                 </div>
                             </div>
 
-                            {articles.map((article) => (
-                                <div className="carousel-item" key={article.id}>
-                                    <img src={article.image} className="d-block w-100" alt="..." />
-                                    <span className="mask bg-gradient-dark opacity-8"></span>
-                                    <div className="carousel-caption">
-                                        <h2 className="text-white">{article.title}</h2>
-                                    </div>
+                            <div className="carousel-item">
+                                <img src={carousel2} className="d-block w-100" alt="..." />
+                                <span className="mask bg-gradient-dark opacity-8"></span>
+                                <div className="carousel-caption">
+                                    <h2 className="text-white">...wield the threads of logic, crafting digital symphonies...</h2>
                                 </div>
-                            ))}
+                            </div>
+
+                            <div className="carousel-item">
+                                <img src={carousel3} className="d-block w-100" alt="..." />
+                                <span className="mask bg-gradient-dark opacity-8"></span>
+                                <div className="carousel-caption">
+                                    <h2 className="text-white">...that orchestrate the dance of machines...</h2>
+                                </div>
+                            </div>
+
+                            <div className="carousel-item">
+                                <img src={carousel4} className="d-block w-100" alt="..." />
+                                <span className="mask bg-gradient-dark opacity-8"></span>
+                                <div className="carousel-caption">
+                                    <h2 className="text-white">...it is the art of turning imagination into innovation...</h2>
+                                </div>
+                            </div>
+
+                            <div className="carousel-item">
+                                <img src={carousel5} className="d-block w-100" alt="..." />
+                                <span className="mask bg-gradient-dark opacity-8"></span>
+                                <div className="carousel-caption">
+                                    <h2 className="text-white">...where lines of code become the brushstrokes painting the canvas of technological progress.</h2>
+                                </div>
+                            </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                             data-bs-slide="prev">
