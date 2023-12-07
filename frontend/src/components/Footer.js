@@ -41,7 +41,7 @@ const Footer = () => {
                     <div className="col-lg-6 ms-auto text-lg-end text-center">
                         <p className="mb-5 text-lg text-dark font-weight-bold text-white">
                             The reward for getting on the stage is fame. The price of fame is you can’t get off the stage. <br />
-                            Would love to get feedback from you, kindly click <a href="#footer">here</a>
+                            Would love to get feedback from you, kindly click <a href="https://forms.gle/byvWhWFS14i3jZCQA" target="google forms">here</a>
                         </p>
                         <a href="https://github.com/MomanyiPoet" target="linkedin" className="text-white me-xl-4 me-4 opacity-5">
                             <span className="fab fa-linkedin"></span>
