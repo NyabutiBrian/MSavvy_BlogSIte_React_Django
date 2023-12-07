@@ -44,6 +44,10 @@
     transform: scale(1.05);
 }
 
+#categories,
+#features {
+    scroll-margin-top: 3rem;
+}
 #categories .card,
 #contact img {
     transition: all 0.3s;

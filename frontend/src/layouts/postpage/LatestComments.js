@@ -4,7 +4,7 @@ import cover from "../../assets/images/cover.webp";
 const LatestComments = () => {
 
     const [comments, setComments] = useState([]);
-    const [displayCount, setDisplayCount] = useState(5); // Initial number of comments to display
+    const [displayCount, setDisplayCount] = useState(3); // Initial number of comments to display
 
     useEffect(() => {
         // Fetch Comments
