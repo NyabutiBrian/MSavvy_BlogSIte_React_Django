@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 import Header from '../layouts/landingpage/Header';
 import Navbar from '../layouts/landingpage/Navbar';
 import HotTopics from '../layouts/landingpage/HotTopics';
@@ -11,6 +12,8 @@ function Landing() {
   
   useEffect(() => {
     window.scrollTo(0, 0);
+    ReactGA.initialize('G-8QP9HWVQWK');
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
