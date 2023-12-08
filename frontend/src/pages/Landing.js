@@ -12,8 +12,7 @@ function Landing() {
   
   useEffect(() => {
     window.scrollTo(0, 0);
-    ReactGA.initialize('G-8QP9HWVQWK');
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview(window.location.pathname);
   }, []);
 
   return (

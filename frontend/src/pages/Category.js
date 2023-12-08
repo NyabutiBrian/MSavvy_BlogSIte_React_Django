@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 import Navbar from "../layouts/categories/Navbar";
 import CarouselSlider from "../layouts/categories/CarouselSlider";
 import CategoryPosts from "../layouts/categories/CategoryPosts";
@@ -8,6 +9,7 @@ function Category() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
+        ReactGA.pageview(window.location.pathname);
     }, []);
     
     return(
