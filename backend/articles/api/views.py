@@ -2,8 +2,8 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework.response import Response
 from rest_framework.decorators import action
 from django.db.models import Count
-from ..models import Category, Article, Comment
-from .serializers import CategorySerializer, ArticleSerializer, CommentSerializer, ContactMessageSerializer
+from ..models import Category, Article, Comment, PortfolioContactMessage
+from .serializers import CategorySerializer, ArticleSerializer, CommentSerializer, ContactMessageSerializer, PortfolioContactMessageSerializer
 
 class CategoryView(ModelViewSet):
     queryset = Category.objects.all()
@@ -60,3 +60,7 @@ class CommentView(ModelViewSet):
 class ContactMessageView(ModelViewSet):
     queryset = Comment.objects.all()
     serializer_class = ContactMessageSerializer
+
+class PortfolioContactMessageView(ModelViewSet):
+    queryset = PortfolioContactMessage.objects.all()
+    serializer_class = PortfolioContactMessageSerializer

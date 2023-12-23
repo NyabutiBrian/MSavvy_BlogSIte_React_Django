@@ -41,3 +41,13 @@ class ContactMessage(models.Model):
 
     def __str__(self):
         return self.full_name
+    
+# PORTFOLIO WEBSITE
+class PortfolioContactMessage(models.Model):
+    full_name = models.CharField(max_length=100)
+    email = models.EmailField()
+    message = models.TextField()
+    message_date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.full_name

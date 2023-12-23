@@ -1,5 +1,5 @@
 from django.contrib import admin
-from articles.models import Category, Article, Comment, ContactMessage
+from articles.models import Category, Article, Comment, ContactMessage, PortfolioContactMessage
 
 # CHANGING TABLE LAYOUT
 class categoryAdmin(admin.ModelAdmin):
@@ -17,8 +17,13 @@ class ContactMessageAdmin(admin.ModelAdmin):
     list_display = ('id', 'email','fullname', 'message_date', 'message')
     list_filter = ['message_date']
 
+class PortfolioContactMessageAdmin(admin.ModelAdmin):
+    list_display = ('id', 'email','full_name', 'message_date', 'message')
+    list_filter = ['message_date']
+
 # Register your models here.
 admin.site.register(Category, categoryAdmin)
 admin.site.register(Article, ArticleAdmin)
 admin.site.register(Comment, CommentAdmin)
 admin.site.register(ContactMessage, ContactMessageAdmin)
+admin.site.register(PortfolioContactMessage, PortfolioContactMessageAdmin)

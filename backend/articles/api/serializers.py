@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from ..models import Category, Article, Comment, ContactMessage
+from ..models import Category, Article, Comment, ContactMessage, PortfolioContactMessage
 
 class CategorySerializer(ModelSerializer):
     class Meta:
@@ -20,3 +20,8 @@ class ContactMessageSerializer(ModelSerializer):
     class Meta:
         model = ContactMessage
         fields = ('id', 'email','fullname', 'message_date', 'message')
+
+class PortfolioContactMessageSerializer(ModelSerializer):
+    class Meta:
+        model = PortfolioContactMessage
+        fields = ('id', 'email','full_name', 'message_date', 'message')
