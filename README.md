@@ -1,32 +1,47 @@
-# MSavvy_Blog_React_Django
+## MSAVVY BLOGSITE
 
-MSavvy_Blog_React_Django is a blog site built with React for the frontend and Django REST Framework for the backend. This project aims to provide a dynamic and interactive platform for creating and sharing blog posts.
+## Table of contents
+
+- [Overview](#overview)
+    - [Introduction](#introduction)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Contributions](#contributions)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Author](#author)
+
+## Overview
+
+### Introduction
+- MSavvy_Blog_React_Django is a blog site built with React for the frontend and Django REST Framework for the backend. This project aims to provide a dynamic and interactive platform for creating and sharing blog posts.
+
 
 ## Features
-
-- **User Authentication**: Allow users to register, log in, and manage their profiles.
-- **Blog Posts**: Create, edit, and delete blog posts.
+- **Blog Posts**: Admin creates, edits and deletes blog posts.
 - **Comments**: Enable users to comment on blog posts.
 - **Responsive Design**: Ensure a seamless user experience across different devices.
 - **API Integration**: Fetch and display data from the Django backend.
+- **The website will have an admin interface and user interface**
+- Admin inerface allows an authenticated user to create, edit and delete blog posts
+- The user interface allows all readers to read and make comments on selected blog posts.
+- Blog posts will have various categories like: Front-end Development, AI Best Friend, UI/UX Design and Back_end Development. Each category will have various posts
+- Blog Posts can be categorised into popular, most recent and highly featured posts.
 
-## Technologies Used
 
-  - HTML, CSS, JavaScript, Bootstrap CSS framework and React for building the frontend
-  - Django (Python) and Django REST Framework for my backend
-  - PostgreSQL Database
-  - Vercel for hosting
-  - Git for Version Control System The website will have an admin interface and user interface
-  - Admin inerface allows an authenticated user to create, edit and delete blog posts
-  - The user interface allows all readers to read and make comments on selected blog posts.
-  - Blog posts will be in four categories namely: Front-end Development, AI Best Friend, UI/UX Design and Back_end Development.
-  - Each categories will have various posts
-  - Posts can be categorised into popular, most recent and highly featured posts
+## Technologies
 
+- HTML, CSS, JavaScript, Bootstrap 5 CSS framework and React for building the frontend
+- Django (Python) and Django REST Framework for my backend
+- PostgreSQL Database
+- Vercel for hosting
+- Git for Version Control System
 
 ## Getting Started
 
-To run the project locally, follow these steps:
+- There are two main folders, backend contains the relevant code for Django REST Framework and frontend contains relevant code for React.
+- To run the project locally, follow these steps:
 
 1. **Clone the repository:**
 
@@ -62,7 +77,10 @@ To run the project locally, follow these steps:
 
 4. **Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.**
 
-## Contributing
+## Msavvy Blog Website
+- Link - [Msavvy Blog Website](https://msavvy-blog-site-react-django.vercel.app/)
+
+## Contributions
 
 If you'd like to contribute to this project, please reach out.
 
@@ -75,7 +93,6 @@ This project is licensed under the [MIT License](LICENSE).
 - [Django REST Framework](https://www.django-rest-framework.org/)
 - [React](https://reactjs.org/)
 
-## Contact
+## Author
 
-For inquiries, please contact [momanyiturner@gmail.com].
-
+- Momanyi Brian - [Portfolio Website](https://momanyi-brian-portfolio.vercel.app)

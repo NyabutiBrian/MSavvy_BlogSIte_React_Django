@@ -1,6 +1,21 @@
-# Creating a Django Project
+## MSAVVY BLOGSITE - BACKEND DEVELOPMENT
 
-Getting Started:
+## Table of contents
+
+- [Overview](#overview)
+    - [Introduction](#introduction)
+- [Process + Development](#process-+-development)
+    - [Creating a Django Project](#creating-a-django-project)
+- [Author](#author)
+
+## Overview
+
+### Introduction
+- MSavvy_Blog_React_Django is a blog site built with Django REST Framework for the backend. This project aims to provide a dynamic and interactive platform for creating and sharing blog posts.
+
+## Process + Development
+
+### Creating a Django Project
 
 1. **Install Python:**
 
@@ -41,3 +56,7 @@ Getting Started:
     python manage.py migrate
     python manage.py runserver
     ```
+
+## Author
+
+- Momanyi Brian - [Portfolio Website](https://momanyi-brian-portfolio.vercel.app)
