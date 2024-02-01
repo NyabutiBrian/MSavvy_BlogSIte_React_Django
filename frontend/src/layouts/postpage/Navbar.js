@@ -34,7 +34,7 @@ const Navbar = () => {
                                         aria-expanded="false">Recent Posts</a>
                                 </li>
                                 <li className="nav-item nav-link">
-                                    <Link to="/" className="btn btn-sm bg-gradient-info mb-0 me-1 mt-md-0 mt-2"
+                                    <Link to="https://momanyi-brian-portfolio.vercel.app/" target="Momanyi Brian Portfolio" className="btn btn-sm bg-gradient-info mb-0 me-1 mt-md-0 mt-2"
                                         aria-expanded="false" id="navchange">Porfolio
                                     </Link>
                                 </li>

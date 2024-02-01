@@ -43,7 +43,7 @@ const Navbar = () => {
                                             aria-expanded="false">Contact</a>
                                     </li>
                                     <li className="nav-item nav-link">
-                                        <a href="#header" className="btn btn-sm bg-gradient-info mb-0 me-1 mt-md-0 mt-2"
+                                        <a href="https://momanyi-brian-portfolio.vercel.app/" target="Momanyi Brian Portfolio" className="btn btn-sm bg-gradient-info mb-0 me-1 mt-md-0 mt-2"
                                             aria-expanded="false" id="navchange">Porfolio</a>
                                     </li>
                                 </ul>
